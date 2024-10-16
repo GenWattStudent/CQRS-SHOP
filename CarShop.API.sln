@@ -3,13 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShop.API", "src\CarShop.API\CarShop.API.csproj", "{6BB5614F-2CF7-442A-9DCB-B8AC5F7E5EDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShop.Presentation", "CarShop.API\CarShop.Presentation.csproj", "{6BB5614F-2CF7-442A-9DCB-B8AC5F7E5EDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShop.Shared", "src\Shared\CarShop.Shared.csproj", "{11CE1963-E6BF-4B7B-93D9-AE2F094D6A2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShop.Shared", "Shared\CarShop.Shared.csproj", "{11CE1963-E6BF-4B7B-93D9-AE2F094D6A2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShop.Domain", "src\CarShop.Domain\CarShop.Domain.csproj", "{CAEDF9F4-43D5-407F-A578-1735EBBE6382}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShop.Domain", "CarShop.Domain\CarShop.Domain.csproj", "{CAEDF9F4-43D5-407F-A578-1735EBBE6382}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShop.Application", "src\CarShop.Application\CarShop.Application.csproj", "{58ABAF96-1545-4244-9F8A-C3C613C5B57B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShop.Application", "CarShop.Application\CarShop.Application.csproj", "{58ABAF96-1545-4244-9F8A-C3C613C5B57B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D589CEF4-E330-4A7D-8D05-972D99CCB9B8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E2437D4E-774D-4B02-AA29-5C5043486E92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{616B268C-65F7-477E-95B6-BF7666B9A265}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +45,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6BB5614F-2CF7-442A-9DCB-B8AC5F7E5EDA} = {616B268C-65F7-477E-95B6-BF7666B9A265}
+		{11CE1963-E6BF-4B7B-93D9-AE2F094D6A2A} = {616B268C-65F7-477E-95B6-BF7666B9A265}
+		{CAEDF9F4-43D5-407F-A578-1735EBBE6382} = {616B268C-65F7-477E-95B6-BF7666B9A265}
+		{58ABAF96-1545-4244-9F8A-C3C613C5B57B} = {616B268C-65F7-477E-95B6-BF7666B9A265}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EFD53757-D2E3-4EC5-86B0-2375E61D2DEE}
