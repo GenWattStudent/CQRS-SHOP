@@ -8093,23 +8093,23 @@
     },
     "CarShop.Application/1.0.0": {
       "type": "project",
-      "path": "../CarShop.Application/CarShop.Application.csproj",
-      "msbuildProject": "../CarShop.Application/CarShop.Application.csproj"
+      "path": "../../src/CarShop.Application/CarShop.Application.csproj",
+      "msbuildProject": "../../src/CarShop.Application/CarShop.Application.csproj"
     },
     "CarShop.Domain/1.0.0": {
       "type": "project",
-      "path": "../CarShop.Domain/CarShop.Domain.csproj",
-      "msbuildProject": "../CarShop.Domain/CarShop.Domain.csproj"
+      "path": "../../src/CarShop.Domain/CarShop.Domain.csproj",
+      "msbuildProject": "../../src/CarShop.Domain/CarShop.Domain.csproj"
     },
     "CarShop.Presentation/1.0.0": {
       "type": "project",
-      "path": "../CarShop.API/CarShop.Presentation.csproj",
-      "msbuildProject": "../CarShop.API/CarShop.Presentation.csproj"
+      "path": "../../src/CarShop.API/CarShop.Presentation.csproj",
+      "msbuildProject": "../../src/CarShop.API/CarShop.Presentation.csproj"
     },
     "CarShop.Shared/1.0.0": {
       "type": "project",
-      "path": "../Shared/CarShop.Shared.csproj",
-      "msbuildProject": "../Shared/CarShop.Shared.csproj"
+      "path": "../../src/CarShop.Shared/CarShop.Shared.csproj",
+      "msbuildProject": "../../src/CarShop.Shared/CarShop.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8131,11 +8131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\CarShop..Integration.Tests\\CarShop.Integration.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\tests\\CarShop..Integration.Tests\\CarShop.Integration.Tests.csproj",
       "projectName": "CarShop.Integration.Tests",
-      "projectPath": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\CarShop..Integration.Tests\\CarShop.Integration.Tests.csproj",
+      "projectPath": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\tests\\CarShop..Integration.Tests\\CarShop.Integration.Tests.csproj",
       "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\CarShop..Integration.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\tests\\CarShop..Integration.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8157,11 +8157,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\CarShop.API\\CarShop.Presentation.csproj": {
-              "projectPath": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\CarShop.API\\CarShop.Presentation.csproj"
+            "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShop.API\\CarShop.Presentation.csproj": {
+              "projectPath": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShop.API\\CarShop.Presentation.csproj"
             },
-            "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\Shared\\CarShop.Shared.csproj": {
-              "projectPath": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\Shared\\CarShop.Shared.csproj"
+            "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShop.Shared\\CarShop.Shared.csproj": {
+              "projectPath": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShop.Shared\\CarShop.Shared.csproj"
             }
           }
         }

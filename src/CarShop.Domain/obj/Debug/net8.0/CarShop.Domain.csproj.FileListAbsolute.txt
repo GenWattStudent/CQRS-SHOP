@@ -1,0 +1,12 @@
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\bin\Debug\net8.0\CarShop.Domain.deps.json
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\bin\Debug\net8.0\CarShop.Domain.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\bin\Debug\net8.0\CarShop.Domain.pdb
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\obj\Debug\net8.0\CarShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\obj\Debug\net8.0\CarShop.Domain.AssemblyInfoInputs.cache
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\obj\Debug\net8.0\CarShop.Domain.AssemblyInfo.cs
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\obj\Debug\net8.0\CarShop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\obj\Debug\net8.0\CarShop.Domain.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\obj\Debug\net8.0\refint\CarShop.Domain.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\obj\Debug\net8.0\CarShop.Domain.pdb
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\obj\Debug\net8.0\ref\CarShop.Domain.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\obj\Debug\net8.0\CarShop.Domain.sourcelink.json
