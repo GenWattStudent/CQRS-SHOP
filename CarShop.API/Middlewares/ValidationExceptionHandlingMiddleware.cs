@@ -22,7 +22,7 @@ public class ValidationExceptionHandlingMiddleware
         catch (ValidationException exception)
         {
             var validationsErrors = new List<ValidationDTO>();
-            
+
             foreach (var error in exception.Errors)
             {
                 validationsErrors.Add(new ValidationDTO
@@ -31,7 +31,7 @@ public class ValidationExceptionHandlingMiddleware
                     Message = error.ErrorMessage
                 });
             }
-            
+
             context.Response.StatusCode = StatusCodes.Status400BadRequest;
 
             await context.Response.WriteAsJsonAsync(validationsErrors);

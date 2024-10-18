@@ -3,7 +3,7 @@ using FluentValidation;
 
 namespace CarShop.Application.Validators;
 
-public  class CreateAddCommandValidator : AbstractValidator<CreateCarCommand>
+public class CreateAddCommandValidator : AbstractValidator<CreateCarCommand>
 {
     public CreateAddCommandValidator()
     {

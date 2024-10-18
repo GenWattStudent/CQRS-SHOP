@@ -86,7 +86,7 @@ public class CarControllerTest : BaseWebApp
         // Act
         var response = await _client.PostAsJsonAsync(Constants.CAR_ENDPOINT, car);
         var problemDetails = await response.Content.ReadFromJsonAsync<ValidationProblemDetails>();
-        
+
         // Assert
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
 

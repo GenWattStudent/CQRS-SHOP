@@ -1,5 +1,5 @@
-﻿using CarShop.Shared.Repositories.Interfaces;
-using CarShop.Shared.Repositories;
+﻿using CarShop.Shared.Repositories;
+using CarShop.Shared.Repositories.Interfaces;
 
 namespace CarShop.Shared.Data;
 

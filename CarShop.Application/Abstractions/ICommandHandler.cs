@@ -3,7 +3,7 @@ using MediatR;
 
 namespace CarShop.Application.Abstractions;
 
-public interface ICommandHandler<TCommand> : IRequestHandler <TCommand, Result>
+public interface ICommandHandler<TCommand> : IRequestHandler<TCommand, Result>
     where TCommand : ICommand
 {
 }

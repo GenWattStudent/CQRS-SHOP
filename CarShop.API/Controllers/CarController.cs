@@ -11,7 +11,7 @@ namespace CarShop.API.Controllers;
 public class CarController : ControllerBase
 {
     private readonly ILogger<CarController> _logger;
-    private readonly IMediator _mediator;  
+    private readonly IMediator _mediator;
 
     public CarController(ILogger<CarController> logger, IMediator mediator)
     {
@@ -50,7 +50,8 @@ public class CarController : ControllerBase
     {
         var result = await _mediator.Send(command);
 
-        if (result.ErrorType == ErrorType.NotFound) {
+        if (result.ErrorType == ErrorType.NotFound)
+        {
             return NotFound(result.Error);
         }
 

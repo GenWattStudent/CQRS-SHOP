@@ -46,7 +46,7 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity : BaseEnti
 
     public void Update(TEntity entity)
     {
-       _context.Set<TEntity>().Update(entity);
+        _context.Set<TEntity>().Update(entity);
     }
 
     public void Delete(TEntity entity)

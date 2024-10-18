@@ -1,5 +1,5 @@
-﻿using CarShop.Domain.Entities;
-using CarShop.Application.Abstractions;
+﻿using CarShop.Application.Abstractions;
+using CarShop.Domain.Entities;
 
 namespace CarShop.Application.Queries.CarQueries;
 
