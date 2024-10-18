@@ -24,7 +24,7 @@ public class UpdateCarCommandHandler : ICommandHandler<UpdateCarCommand, Car>
 
         if (carToUpdate == null)
         {
-            return Result<Car>.Failure("The car was not found");
+            return Result<Car>.Failure("The car was not found", ErrorType.NotFound);
         }
 
         _mapper.Map(request, carToUpdate);

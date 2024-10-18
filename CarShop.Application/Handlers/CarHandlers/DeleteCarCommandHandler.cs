@@ -20,7 +20,7 @@ public class DeleteCarCommandHandler : ICommandHandler<DeleteCarCommand, int>
 
         if (carToDelete == null)
         {
-            return Result<int>.Failure("The car was not found");
+            return Result<int>.Failure("The car was not found", ErrorType.NotFound);
         }
 
         _unitOfWork.Cars.Delete(carToDelete);

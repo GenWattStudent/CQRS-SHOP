@@ -1,5 +1,6 @@
 using CarShop.Application.Commands.CarCommands;
 using CarShop.Application.Queries.CarQueries;
+using CarShop.Domain.Results;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -44,13 +45,13 @@ public class CarController : ControllerBase
         return Ok(result.Value);
     }
 
-    [HttpPut]
+    [HttpPut("{id}")]
     public async Task<IActionResult> UpdateCar(UpdateCarCommand command)
     {
         var result = await _mediator.Send(command);
 
-        if (!result.IsSuccess) {
-            return BadRequest(result.Error);
+        if (result.ErrorType == ErrorType.NotFound) {
+            return NotFound(result.Error);
         }
 
         return Ok(result.Value);

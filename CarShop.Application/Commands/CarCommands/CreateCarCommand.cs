@@ -10,4 +10,4 @@ public record CreateCarCommand(
     string Color, 
     string VIN, 
     decimal Price, 
-    string? ImageUrl) : ICommand<Car>;
+    string? ImageUrl = null) : ICommand<Car>;

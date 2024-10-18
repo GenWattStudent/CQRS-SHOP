@@ -21,7 +21,7 @@ public class GetCarByIdQueryHandler : ICommandHandler<GetCarByIdQuery, Car>
 
         if (car == null)
         {
-            return Result<Car>.Failure("The car was not found");
+            return Result<Car>.Failure("The car was not found", ErrorType.NotFound);
         }
 
         return Result<Car>.Success(car);

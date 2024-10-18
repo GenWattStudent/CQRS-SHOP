@@ -8,9 +8,9 @@ public class UnitOfWork : IUnitOfWork
     private readonly ApplicationDbContext _context;
     private ICarRepository? _carRepository;
 
-    public UnitOfWork()
+    public UnitOfWork(ApplicationDbContext context)
     {
-        _context = new ApplicationDbContext();
+        _context = context;
     }
 
     public ICarRepository Cars => _carRepository ??= new CarRepository(_context);
