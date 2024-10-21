@@ -1,0 +1,7 @@
+{
+  "CarShop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShopApi\\CarShop.Application",
+  "CarShop.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShopApi\\CarShop.Core",
+  "CarShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShop.Domain",
+  "CarShop.Presentation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShopApi\\CarShop.API",
+  "Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShop.Shared"
+}

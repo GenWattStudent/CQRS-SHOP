@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3tNM6bmdVjM=",
+  "dgSpecHash": "YsQfatX9unU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShop.Shared\\CarShop.Shared.csproj",
+  "projectFilePath": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShop.Shared\\Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Adrian\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.10\\microsoft.entityframeworkcore.8.0.10.nupkg.sha512",
     "C:\\Users\\Adrian\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.10\\microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512",

@@ -615,9 +615,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShop.Shared\\CarShop.Shared.csproj",
-      "projectName": "CarShop.Shared",
-      "projectPath": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShop.Shared\\CarShop.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShop.Shared\\Shared.csproj",
+      "projectName": "Shared",
+      "projectPath": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShop.Shared\\Shared.csproj",
       "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShop.Shared\\obj\\",
       "projectStyle": "PackageReference",
