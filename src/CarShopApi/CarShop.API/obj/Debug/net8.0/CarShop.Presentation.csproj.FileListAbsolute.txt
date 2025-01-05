@@ -106,3 +106,10 @@ C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\obj\Debug\ne
 C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\obj\Debug\net8.0\CarShop.Presentation.genruntimeconfig.cache
 C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\obj\Debug\net8.0\ref\CarShop.Presentation.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\obj\Debug\net8.0\CarShop.Presentation.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\bin\Debug\net8.0\CarShop.Presentation.staticwebassets.endpoints.json
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\obj\Debug\net8.0\staticwebassets\msbuild.CarShop.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

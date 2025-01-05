@@ -7,11 +7,12 @@ namespace CarShop.Application.Unit.Tests.Setups;
 public class CarSetup
 {
     public readonly Mock<IUnitOfWork> MockUnitOfWork;
+    public readonly Mock<ICarRepository> MockCarRepository;
 
     public CarSetup()
     {
         MockUnitOfWork = new Mock<IUnitOfWork>();
-        var carRepositoryMock = new Mock<ICarRepository>();
-        MockUnitOfWork.Setup(u => u.Cars).Returns(carRepositoryMock.Object);
+        MockCarRepository = new Mock<ICarRepository>();
+        MockUnitOfWork.Setup(u => u.Cars).Returns(MockCarRepository.Object);
     }
 }

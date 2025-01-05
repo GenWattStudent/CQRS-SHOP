@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "OUVd+3vcWfB17qKSEJjtF0ehCeY+ZuwBCEv8XJoBVqs=",
+  "Hash": "G3wZ0evTat5LalqS2TfnZHGmHNkSI8xDqj1rtJHRrC8=",
   "Source": "CarShop.Presentation",
   "BasePath": "_content/CarShop.Presentation",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

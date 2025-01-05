@@ -977,7 +977,6 @@ C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.T
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebSockets.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebUtilities.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.CSharp.dll
-C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
@@ -1004,8 +1003,6 @@ C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.T
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.ObjectPool.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
-C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.JSInterop.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Net.Http.Headers.dll
@@ -1036,7 +1033,6 @@ C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.T
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\System.Data.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\System.Diagnostics.Contracts.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\System.Diagnostics.Debug.dll
-C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\System.Diagnostics.FileVersionInfo.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\System.Diagnostics.Process.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\System.Diagnostics.StackTrace.dll
@@ -1313,3 +1309,19 @@ C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.T
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\obj\Debug\net8.0\CarShop.Integration.Tests.pdb
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\obj\Debug\net8.0\CarShop.Integration.Tests.genruntimeconfig.cache
 C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\obj\Debug\net8.0\ref\CarShop.Integration.Tests.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\CarShop.Presentation.staticwebassets.endpoints.json
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\refs\System.Diagnostics.EventLog.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\tests\CarShopApi\CarShop..Integration.Tests\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
