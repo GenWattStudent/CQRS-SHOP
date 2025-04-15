@@ -55,11 +55,16 @@ public class CarController : ControllerBase
             return NotFound(result.Error);
         }
 
+        if (result.ErrorType == ErrorType.ValidationError)
+        {
+            return BadRequest(result.Error);
+        }
+
         return Ok(result.Value);
     }
 
     [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteCar(int id)
+    public async Task<IActionResult> DeleteCar(Guid id)
     {
         var command = new DeleteCarCommand(id);
         var result = await _mediator.Send(command);
@@ -73,7 +78,7 @@ public class CarController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetCarById(int id)
+    public async Task<IActionResult> GetCarById(Guid id)
     {
         var command = new GetCarByIdQuery(id);
         var result = await _mediator.Send(command);

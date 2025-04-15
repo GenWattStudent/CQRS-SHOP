@@ -10,3 +10,4 @@ C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\obj\Debug\net8.0\ref
 C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\obj\Debug\net8.0\CarShop.Domain.pdb
 C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\obj\Debug\net8.0\ref\CarShop.Domain.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\obj\Debug\net8.0\CarShop.Domain.sourcelink.json
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShop.Domain\obj\Debug\net8.0\CarShop.Domain.csproj.AssemblyReference.cache

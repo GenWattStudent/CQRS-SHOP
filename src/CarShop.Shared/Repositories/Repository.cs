@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CarShop.Shared.Repositories;
 
-public class Repository<TEntity> : IRepository<TEntity> where TEntity : BaseEntity
+public class Repository<TEntity> : IRepository<TEntity> where TEntity : AggregateRoot
 {
     private readonly ApplicationDbContext _context;
 
@@ -18,11 +18,10 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity : BaseEnti
         return await _context.Set<TEntity>().ToListAsync();
     }
 
-    public async Task<TEntity?> GetByIdAsync(int id)
+    public async Task<TEntity?> GetByIdAsync(Guid id)
     {
         return await _context.Set<TEntity>().FindAsync(id);
     }
-
 
     public void Add(TEntity entity)
     {
@@ -34,7 +33,7 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity : BaseEnti
         _context.Set<TEntity>().AddRange(entities);
     }
 
-    public void Delete(int id)
+    public void Delete(Guid id)
     {
         var entity = _context.Set<TEntity>().Find(id);
 

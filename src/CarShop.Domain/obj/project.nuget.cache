@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yhYKaVoHprc=",
+  "dgSpecHash": "2/LK89nEOBw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Adrian\\AdrianekApps\\CarShop.API\\src\\CarShop.Domain\\CarShop.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Adrian\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\Adrian\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Adrian\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

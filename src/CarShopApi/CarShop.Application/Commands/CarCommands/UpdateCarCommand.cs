@@ -4,7 +4,7 @@ using CarShop.Domain.Entities;
 namespace CarShop.Application.Commands.CarCommands;
 
 public record UpdateCarCommand(
-    int Id,
+    Guid Id,
     string Brand,
     string Model,
     int Year,

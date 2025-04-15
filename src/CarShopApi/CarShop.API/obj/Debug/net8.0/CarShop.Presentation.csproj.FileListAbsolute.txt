@@ -112,4 +112,8 @@ C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\bin\Debug\ne
 C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\obj\Debug\net8.0\staticwebassets\msbuild.CarShop.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\bin\Debug\net8.0\MassTransit.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Users\Adrian\AdrianekApps\CarShop.API\src\CarShopApi\CarShop.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

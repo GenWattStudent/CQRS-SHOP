@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "src\\CarShopApi\\CarShop.API\\CarShop.Presentation.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "src\\CarShopNotifier\\CarShopNotifier.Console\\CarShopNotifier.Console.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

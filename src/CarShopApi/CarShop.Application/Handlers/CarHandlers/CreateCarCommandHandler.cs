@@ -17,20 +17,27 @@ public class CreateCarCommandHandler : ICommandHandler<CreateCarCommand, Car>
 
     public async Task<Result<Car>> Handle(CreateCarCommand request, CancellationToken cancellationToken)
     {
-        var car = new Car
+        try
         {
-            Brand = request.Brand,
-            Model = request.Model,
-            Year = request.Year,
-            Color = request.Color,
-            VIN = request.VIN,
-            Price = request.Price,
-            ImageUrl = request.ImageUrl
-        };
+            // Use the constructor to ensure all domain rules are enforced
+            var car = new Car(
+                request.Brand,
+                request.Model,
+                request.Year,
+                request.Color,
+                request.VIN,
+                request.Price,
+                request.ImageUrl
+            );
 
-        _unitOfWork.Cars.Add(car);
-        await _unitOfWork.SaveChangesAsync();
+            _unitOfWork.Cars.Add(car);
+            await _unitOfWork.SaveChangesAsync();
 
-        return Result<Car>.Success(car);
+            return Result<Car>.Success(car);
+        }
+        catch (ArgumentException ex)
+        {
+            return Result<Car>.Failure(ex.Message, ErrorType.ValidationError);
+        }
     }
 }

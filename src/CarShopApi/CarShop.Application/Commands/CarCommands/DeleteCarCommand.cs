@@ -2,6 +2,6 @@
 
 namespace CarShop.Application.Commands.CarCommands;
 
-public record DeleteCarCommand(int Id) : ICommand<int>
+public record DeleteCarCommand(Guid Id) : ICommand<Guid>
 {
 }
